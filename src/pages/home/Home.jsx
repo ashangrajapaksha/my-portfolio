@@ -10,8 +10,8 @@ import Experience from "../experience/Experience";
 function Home() {
   return (
     <div>
-      <Experience />
       <Intruction />
+      <Experience />
       <Education />
       <Project />
       <Contact />
