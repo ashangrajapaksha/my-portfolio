@@ -34,13 +34,13 @@ function Contact() {
   };
 
   return (
-    <div
-      id="contact"
-      className="h-screen flex flex-col justify-between relative"
-    >
+    <div id="contact" className="h-screen flex flex-col justify-between ">
       <div>
         <div>
-          <h2 className="text-4xl uppercase text-center"> Contact Me</h2>
+          <h2 className="text-4xl uppercase text-center text-red-500">
+            {" "}
+            Contact Me
+          </h2>
           <div className="flex justify-center mt-10">
             <div className="flex justify-between gap-10">
               <div className="flex flex-col gap-1 items-center">
@@ -84,8 +84,7 @@ function Contact() {
           </div>
         </div>
       </div>
-
-      <footer className="text-center mt-10 absolute bottom-20 w-full">
+      <footer className="text-center mt-10  bottom-20 w-full p-10">
         <p>© {getCurrentYear()}, ASHAN RAJAPAKSHA. ALL RIGHTS RESERVED</p>
       </footer>
     </div>

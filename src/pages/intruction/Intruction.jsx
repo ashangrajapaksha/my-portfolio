@@ -2,17 +2,14 @@ import React from "react";
 
 function Intruction() {
   return (
-    <div id="home" className="background  flex items-center justify-center">
+    <div id="home" class="background  flex items-center justify-center">
       <div class="absolute inset-0"></div>
-
-      <div className="">
-        <span className="text-4xl text-white block capitalize">
-          Hello i , am
-        </span>
-        <span className="text-8xl text-white block capitalize bold">
+      <div class="">
+        <span class="text-4xl text-black block capitalize">Hello i , am</span>
+        <span class="text-8xl text-black block capitalize bold">
           Ashan Rajapaksha
         </span>
-        <span className="block text-white"></span>
+        <span class="block text-white"></span>
       </div>
     </div>
   );

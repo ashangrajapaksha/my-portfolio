@@ -21,13 +21,16 @@ function Education() {
   return (
     <div className="h-screen flex justify-center " id="education">
       <div className=" container mx-auto flex flex-col gap-10">
-        <h2 className="text-4xl bold text-center uppercase">
+        <h2 className="text-4xl bold text-center uppercase text-red-500">
           Education history
         </h2>
         <div className=" flex items-center justify-center ">
           <div className="flex gap-10 ">
             {educationData.map((education, index) => (
-              <div className="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-xl ">
+              <div
+                key={index}
+                className="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-xl "
+              >
                 <div className="md:flex">
                   <div className="p-8">
                     {education.collage != "" && (
