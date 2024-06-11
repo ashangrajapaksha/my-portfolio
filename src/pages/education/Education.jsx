@@ -21,7 +21,7 @@ function Education() {
   return (
     <div className="h-screen flex justify-center " id="education">
       <div className=" container mx-auto flex flex-col gap-10">
-        <h2 className="text-4xl bold text-center uppercase text-red-500">
+        <h2 className="text-4xl bold text-center uppercase text-red-500 fredericka-the-great-regular">
           Education history
         </h2>
         <div className=" flex items-center justify-center ">

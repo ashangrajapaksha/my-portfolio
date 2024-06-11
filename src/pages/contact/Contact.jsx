@@ -37,7 +37,7 @@ function Contact() {
     <div id="contact" className="h-screen flex flex-col justify-between ">
       <div>
         <div>
-          <h2 className="text-4xl uppercase text-center text-red-500">
+          <h2 className="text-4xl uppercase text-center text-red-500 fredericka-the-great-regular">
             {" "}
             Contact Me
           </h2>

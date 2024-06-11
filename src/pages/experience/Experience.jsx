@@ -5,7 +5,7 @@ function Experience() {
   return (
     <div id="experience" className="h-screen flex flex-col gap-10">
       {" "}
-      <h2 className="text-4xl bold text-center uppercase text-red-500">
+      <h2 className="text-4xl bold text-center uppercase text-red-500 fredericka-the-great-regular">
         Work Experience
       </h2>
       <div className=" flex  justify-center gap-3">
