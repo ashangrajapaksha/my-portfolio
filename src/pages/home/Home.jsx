@@ -14,8 +14,8 @@ function Home() {
       <Intruction />
       <AboutMe />
       <Experience />
-      <Education />
       <Project />
+      <Education />
       <Contact />
     </div>
   );
