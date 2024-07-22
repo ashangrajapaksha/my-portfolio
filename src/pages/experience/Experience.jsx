@@ -3,13 +3,24 @@ import Card from "../../shared/card/Card";
 
 function Experience() {
   return (
-    <div id="experience" className="h-screen flex flex-col gap-10">
-      {" "}
-      <h2 className="text-4xl bold text-center uppercase text-red-500 fredericka-the-great-regular">
+    <div
+      id="experience"
+      className="min-h-screen relative flex flex-col gap-10 bg-gradient-to-b from-black to-purple-900 py-13 overflow-hidden"
+    >
+      <h2
+        className="text-6xl font-bold text-white mb-8 text-center uppercase text-white relative z-10"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         Work Experience
       </h2>
-      <div className=" flex  justify-center gap-3">
+      <div
+        className="flex flex-wrap justify-center gap-6 px-4 relative z-10"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <Card
+          data-aos="fade-left"
           company="Revox (pvt)Ltd"
           position="Software Engineer"
           duration="2021 May - Present"
@@ -24,7 +35,7 @@ function Experience() {
         />
         <Card
           company="Info Nexus"
-          position="Tranee Software Engineer"
+          position="Trainee Software Engineer"
           duration="2021 May - Present"
           experience={[
             "Developed proficiency in Angular and Ionic for mobile app and web development during training.",

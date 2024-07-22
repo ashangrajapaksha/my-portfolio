@@ -1,91 +1,81 @@
 import React from "react";
-import { MdAddCall } from "react-icons/md";
-import { MdOutlineEmail } from "react-icons/md";
-import { FaGithub } from "react-icons/fa";
-import { CiLinkedin } from "react-icons/ci";
-import { FaFacebook } from "react-icons/fa6";
+// import { FaWhatsapp, FaBehance, FaDribbble, FaLinkedin } from "react-icons/fa";
 
 function Contact() {
   const getCurrentYear = () => {
     return new Date().getFullYear();
   };
 
-  const handleCallClick = () => {
-    window.location.href = "tel:+94766475044";
-  };
-
   const handleEmailClick = () => {
     window.location.href = "mailto:ashanrajapaksha954@gmail.com";
   };
 
-  const handleGithubClick = () => {
-    window.open("https://github.com/ashangrajapaksha", "_blank");
-  };
-
-  const handleLinkedinClick = () => {
-    window.open(
-      "https://www.linkedin.com/in/ashan-rajapaksha-11931316b/",
-      "_blank"
-    );
-  };
-
-  const handleFacebookClick = () => {
-    window.open("https://web.facebook.com/ashan.peellalage.9/", "_blank");
-  };
-
   return (
-    <div id="contact" className="h-screen flex flex-col justify-between ">
-      <div>
-        <div>
-          <h2 className="text-4xl uppercase text-center text-red-500 fredericka-the-great-regular">
-            {" "}
-            Contact Me
-          </h2>
-          <div className="flex justify-center mt-10">
-            <div className="flex justify-between gap-10">
-              <div className="flex flex-col gap-1 items-center">
-                <span className="text-center" onClick={handleCallClick}>
-                  <MdAddCall className="w-16 h-16 cursor-pointer" />
-                </span>
-                <span className="text-center">+94 766475044</span>
-              </div>
-              <div className="flex flex-col gap-1 items-center">
-                <span className="text-center" onClick={handleEmailClick}>
-                  <MdOutlineEmail className="w-16 h-16 cursor-pointer" />
-                </span>
-                <span className="text-center">
-                  ashanrajapaksha954@gmail.com
-                </span>
-              </div>
-            </div>
-          </div>
+    <div
+      id="contact"
+      className="min-h-screen flex flex-col justify-between bg-black text-white pt-20"
+    >
+      <div className="container mx-auto px-4">
+        <h2
+          className="text-3xl font-bold mb-8"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          Let's Connect
+        </h2>
+        <div
+          className="flex flex-col space-y-4 mb-12"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <a href="#" className="hover:text-gray-300">
+            WhatsApp
+          </a>
+          <a href="#" className="hover:text-gray-300">
+            Behance
+          </a>
+          <a href="#" className="hover:text-gray-300">
+            Dribbble
+          </a>
+          <a href="#" className="hover:text-gray-300">
+            LinkedIn
+          </a>
         </div>
-        <div className="mt-20">
-          <h2 className="text-4xl uppercase text-center"> Find Me On</h2>
-          <div className="flex justify-center gap-10 mt-10">
-            <div className="flex flex-col gap-1 items-center">
-              <span className="text-center" onClick={handleGithubClick}>
-                <FaGithub className="w-16 h-16" />
-              </span>
-              <span className="text-center">ashangrajapaksha</span>
-            </div>
-            <div className="flex flex-col gap-1 items-center">
-              <span className="text-center" onClick={handleLinkedinClick}>
-                <CiLinkedin className="w-16 h-16" />
-              </span>
-              <span className="text-center">Ashan Rajapaksha</span>
-            </div>
-            <div className="flex flex-col gap-1 items-center">
-              <span className="text-center" onClick={handleFacebookClick}>
-                <FaFacebook className="w-16 h-16" />
-              </span>
-              <span className="text-center">Ashan Rajapaksha</span>
-            </div>
-          </div>
+        <div className="flex flex-col justify-center items-center">
+          <h3
+            className="text-xl mb-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            Let's work together
+          </h3>
+          <h1
+            className="text-6xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-orange-500 text-transparent bg-clip-text"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            SAY HI!
+          </h1>
+          <button
+            onClick={handleEmailClick}
+            className="text-xl hover:underline"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            ashanrajapaksha954@gmail.com
+          </button>
         </div>
       </div>
-      <footer className="text-center mt-10  bottom-20 w-full p-10">
-        <p>© {getCurrentYear()}, ASHAN RAJAPAKSHA. ALL RIGHTS RESERVED</p>
+      <footer className="w-full p-4 border-t border-gray-800">
+        <div className="container mx-auto flex justify-between items-center">
+          <div className="flex items-center">
+            <span>ASHAN RAJAPAKSHA.</span>
+          </div>
+          <p className="text-sm">Copy Right | © {getCurrentYear()}</p>
+          <button className="w-8 h-8 bg-white text-black rounded-full flex items-center justify-center">
+            ↑
+          </button>
+        </div>
       </footer>
     </div>
   );

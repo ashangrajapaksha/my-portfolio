@@ -50,11 +50,11 @@ function Nav() {
   };
 
   return (
-    <div className="w-full fixed top-0 left-0 z-100 bg-blue-100">
-      <div className="md:px-10 md:py-4 py-8 px-7 md:flex justify-center items-center bg-transparent">
+    <div className="w-full fixed top-0 left-0 z-100">
+      <div className="glassmorphism md:px-10 md:py-4 py-8 px-7 md:flex justify-center items-center">
         <ul
-          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-transparent md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 cursor-pointer ease-in ${
-            isOpen ? "top-12" : "top-[-490px]"
+          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 cursor-pointer ease-in ${
+            isOpen ? "top-12 glassmorphism" : "top-[-490px]"
           }`}
         >
           {links.map((link, index) => (
