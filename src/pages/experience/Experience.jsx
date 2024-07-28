@@ -23,24 +23,35 @@ function Experience() {
           data-aos="fade-left"
           company="Revox (pvt)Ltd"
           position="Software Engineer"
-          duration="2021 May - Present"
+          duration="2022 January - Present"
           experience={[
-            "Skilled in creating user-friendly interfaces for websites using Angular and React.",
-            "Proficient in using Node.js to build strong backend systems.",
-            "Proficient in using Node.js to build strong backend systems.",
-            "Entry-level proficiency in PHP with a focus on Laravel, contributing to back-end processes.",
-            "Worked with Agile methodology in development.",
-            "Consulting and supervising intern",
+            "Contributed to and Actively Participated in Numerous Projects: Demonstrated versatility in both front-end and back-end development across various projects.",
+            "Experience with MERN and MEAN Stacks: Proficient in developing full-stack applications using MongoDB, Express.js, React, Node.js (MERN), and MongoDB, Express.js, Angular, Node.js (MEAN).",
+            "Experienced in PHP with a Focus on Laravel: Contributed to both front-end and back-end processes using PHP and Laravel.",
+            "Worked with Agile Methodology: Applied Agile principles and practices to development projects for efficient and effective delivery.",
+            "Consulting and Supervising Interns: Provided guidance and oversight to interns, ensuring their development and successful contribution to projects.",
+          ]}
+        />
+        <Card
+          data-aos="fade-left"
+          company="Revox (pvt)Ltd"
+          position="Associate Software Engineer"
+          duration="2021 May - 2021 Dec"
+          experience={[
+            "Contributed to the Development of a Comprehensive Platform: Utilized Node.js, Angular, and MongoDB to build and enhance the platform.",
+            "Delivered Robust Solutions for Client Needs: Ensured the platform met and exceeded client expectations by providing reliable and effective solutions.",
+            "Worked with Agile Methodology: Applied Agile principles and practices to development projects for efficient and effective delivery.",
           ]}
         />
         <Card
           company="Info Nexus"
           position="Trainee Software Engineer"
-          duration="2021 May - Present"
+          duration="2020 Oct - 2021 April"
           experience={[
             "Developed proficiency in Angular and Ionic for mobile app and web development during training.",
             "Applied skills to contribute to dynamic and responsive mobile applications",
             "Gained valuable experience in the supply chain management domain.",
+            "Worked with Agile Methodology: Applied Agile principles and practices to development projects for efficient and effective delivery.",
           ]}
         />
       </div>

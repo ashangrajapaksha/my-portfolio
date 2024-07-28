@@ -28,17 +28,25 @@ function Contact() {
           data-aos="fade-right"
           data-aos-duration="1000"
         >
-          <a href="#" className="hover:text-gray-300">
-            WhatsApp
+          <a
+            href="https://www.linkedin.com/in/ashan-rajapaksha-11931316b/"
+            target="_blank"
+            className="hover:text-gray-300"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/ashangrajapaksha"
+            target="_blank"
+            className="hover:text-gray-300"
+          >
+            Git Hub
           </a>
           <a href="#" className="hover:text-gray-300">
             Behance
           </a>
           <a href="#" className="hover:text-gray-300">
             Dribbble
-          </a>
-          <a href="#" className="hover:text-gray-300">
-            LinkedIn
           </a>
         </div>
         <div className="flex flex-col justify-center items-center">

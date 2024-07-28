@@ -5,7 +5,7 @@ function Introduction() {
   return (
     <div className="bg-black min-h-screen flex flex-col items-center justify-center text-white p-4">
       <div
-        className="w-32 h-32 rounded-full overflow-hidden mb-8 bg-gradient-to-r from-purple-400 via-blue-400 to-pink-400 p-1"
+        className="w-56 h-56 rounded-full overflow-hidden mb-8 bg-gradient-to-r from-purple-400 via-blue-400 to-pink-400 p-1"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
@@ -37,11 +37,17 @@ function Introduction() {
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        As a person who always learns from every experience, I always seek new
+        {/* As a person who always learns from every experience, I always seek new
         challenges to explore and develop myself to a better state than I was.
         My curiosity, analytical mindset, open-minded attitude and my
         inter-personal skills always help me to blend in, learn fast and adapt
-        to new domains easily.
+        to new domains easily. */}
+        I am an Experienced Software Engineer with a robust background in
+        implementing scalable solutions. Proficient in multiple programming
+        languages and frameworks, I excel at collaborating with cross-functional
+        teams to deliver high-quality software products. I am passionate about
+        staying current with emerging technologies and leveraging them to drive
+        innovation in software development.
       </p>
       <button
         className="px-6 py-3 rounded-full bg-gradient-to-r from-purple-500 to-orange-500 text-white font-semibold flex items-center"

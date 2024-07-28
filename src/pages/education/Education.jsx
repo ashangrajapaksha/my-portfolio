@@ -20,10 +20,10 @@ function Education() {
 
   return (
     <div
-      className="h-auto relative bg-gradient-to-br from-pink-600 via-orange-400 to-red-500"
+      className="h-auto pt-48 relative bg-gradient-to-br from-pink-600 via-orange-400 to-red-500 flex justify-center"
       id="education"
     >
-      <div className="container mx-auto flex flex-col gap-10 pb-60">
+      <div className="container mx-auto flex flex-col gap-10 pb-80">
         <h2
           className="text-6xl font-bold text-white text-center uppercase text-white z-10"
           data-aos="fade-up"
@@ -40,7 +40,7 @@ function Education() {
             {educationData.map((education, index) => (
               <div
                 key={index}
-                className="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-xl bg-white"
+                className="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-xl bg-white w-96"
               >
                 <div className="md:flex">
                   <div className="p-8">

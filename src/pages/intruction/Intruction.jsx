@@ -19,13 +19,16 @@ function Introduction() {
           Ashan Rajapaksha
         </span>
         <span className="block text-white mb-8"></span>
-        <button
-          type="button"
-          className="px-6 py-3 text-white font-semibold rounded-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50 transform transition hover:scale-105"
+        <a
+          href="/ashan_rajapaksha.pdf"
+          download
+          target="_blank"
+          className="px-6 py-3 text-white font-semibold rounded-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50 transform transition hover:scale-105 cursor-pointer"
         >
-          Connect Now <i className="fas fa-arrow-right ml-2"></i>
-        </button>
+          Download Resume <i className="fa-solid fa-download"></i>
+        </a>
       </div>
+
       <div className="absolute bottom-0 left-0 w-full overflow-hidden">
         <svg
           className="relative block w-full h-[100px]"
