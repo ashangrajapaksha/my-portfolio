@@ -7,13 +7,13 @@ function Education() {
       institution: "University of Colombo School of Computing",
       degree: "Bachelor of Science in Computer Science",
       year: "2018 - 2021",
-      result: "Graduated in July 2022",
+      result: "Year of Graduation 2021",
     },
     {
       collage: "Embilipitiya Maha Vidyalaya",
       institution: "G.C.E Advanced Level",
       degree: "Physical Science Stream (2016)",
-      year: "2014 - 2018",
+      year: "2016",
       result: "A B B",
     },
   ];

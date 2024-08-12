@@ -21,7 +21,7 @@ function Contact() {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          Let's Connect
+          Find me on
         </h2>
         <div
           className="flex flex-col space-y-4 mb-12"
@@ -41,12 +41,6 @@ function Contact() {
             className="hover:text-gray-300"
           >
             Git Hub
-          </a>
-          <a href="#" className="hover:text-gray-300">
-            Behance
-          </a>
-          <a href="#" className="hover:text-gray-300">
-            Dribbble
           </a>
         </div>
         <div className="flex flex-col justify-center items-center">
@@ -72,6 +66,13 @@ function Contact() {
           >
             ashanrajapaksha954@gmail.com
           </button>
+          <p
+            className="text-xl hover:underline"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            +94 76 647 5044
+          </p>
         </div>
       </div>
       <footer className="w-full p-4 border-t border-gray-800">

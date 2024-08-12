@@ -4,7 +4,7 @@ function Introduction() {
   return (
     <div
       id="home"
-      className="background flex items-center justify-center h-screen relative"
+      className=" flex items-center justify-center h-screen relative"
     >
       <div className="dot-background absolute inset-0"></div>
       <div
@@ -17,6 +17,9 @@ function Introduction() {
         </span>
         <span className="text-8xl text-black block capitalize font-bold mb-6">
           Ashan Rajapaksha
+        </span>
+        <span className="text-2xl text-slate-500 block capitalize mb-6">
+          Software Engineer | Full stack developer
         </span>
         <span className="block text-white mb-8"></span>
         <a

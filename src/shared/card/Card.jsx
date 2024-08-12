@@ -13,7 +13,7 @@ function Card(props) {
             <div className="flex items-start">
               <AiFillCaretRight />
             </div>
-            <p>{exp}</p>
+            <p className="text-gray-500">{exp}</p>
           </li>
         ))}
       </ul>

@@ -2,6 +2,7 @@ import React from "react";
 import backgroundImage from "../../assets/background.jpg";
 
 function Introduction() {
+  console.log("Dibuger");
   return (
     <div className="bg-black min-h-screen flex flex-col items-center justify-center text-white p-4">
       <div
@@ -49,27 +50,6 @@ function Introduction() {
         staying current with emerging technologies and leveraging them to drive
         innovation in software development.
       </p>
-      <button
-        className="px-6 py-3 rounded-full bg-gradient-to-r from-purple-500 to-orange-500 text-white font-semibold flex items-center"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-      >
-        Connect Now
-        <svg
-          className="w-5 h-5 ml-2"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M14 5l7 7m0 0l-7 7m7-7H3"
-          />
-        </svg>
-      </button>
     </div>
   );
 }

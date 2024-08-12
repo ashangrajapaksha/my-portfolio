@@ -55,6 +55,15 @@ function Experience() {
           ]}
         />
       </div>
+      {/* <div
+        className="flex flex-wrap justify-center gap-6 px-4 relative z-10"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <h3 className="text-2xl font-bold text-white mb-8 text-center uppercase text-white relative z-10">
+          Technical Exposure
+        </h3>
+      </div> */}
     </div>
   );
 }

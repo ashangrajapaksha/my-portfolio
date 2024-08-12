@@ -6,7 +6,7 @@ function Nav() {
   const links = [
     { name: "Home", link: "home" },
     { name: "Experience", link: "experience" },
-    { name: "Project", link: "project" },
+    // { name: "Project", link: "project" },
     { name: "Education", link: "education" },
     { name: "Contact Me", link: "contact" },
   ];
@@ -50,7 +50,7 @@ function Nav() {
   };
 
   return (
-    <div className="w-full fixed top-0 left-0 z-100">
+    <div className="w-full fixed top-0 left-0  nav-wrap">
       <div className="glassmorphism md:px-10 md:py-4 py-8 px-7 md:flex justify-center items-center">
         <ul
           className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 cursor-pointer ease-in ${
