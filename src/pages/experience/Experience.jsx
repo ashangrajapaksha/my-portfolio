@@ -5,7 +5,7 @@ function Experience() {
   return (
     <div
       id="experience"
-      className="min-h-screen relative flex flex-col gap-8 sm:gap-10 bg-gradient-to-b from-black to-purple-900 py-10 sm:py-13 overflow-hidden"
+      className="min-h-screen relative flex flex-col gap-8 sm:gap-10 bg-gradient-to-bl from-[#4F1787] via-[#EB3678] to-[#FB773C] py-10 sm:py-13 overflow-hidden"
     >
       <h2
         className="text-3xl sm:text-6xl font-bold text-white mb-6 sm:mb-8 text-center uppercase relative z-10"

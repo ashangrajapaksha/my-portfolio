@@ -52,7 +52,7 @@ function Nav() {
   return (
     <div className="w-full fixed top-0 left-0 nav-wrap z-50">
       <div className="glassmorphism md:px-10 md:py-4 py-4 px-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Logo</h1>
+        <h1 className="text-2xl font-bold">---</h1>
         {/* Mobile Hamburger Button */}
         <div
           className="md:hidden cursor-pointer"
@@ -76,7 +76,7 @@ function Nav() {
 
         {/* Navigation Links */}
         <ul
-          className={`md:flex md:items-center absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+          className={`md:flex md:items-center absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in cursor-pointer ${
             isOpen ? "top-12 glassmorphism" : "top-[-490px]"
           } md:top-auto md:relative`}
         >

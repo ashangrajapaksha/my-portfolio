@@ -27,7 +27,7 @@ function Education() {
 
   return (
     <div
-      className="h-auto pt-24 sm:pt-48 relative bg-gradient-to-br from-pink-600 via-orange-400 to-red-500 flex justify-center"
+      className="h-auto pt-24 sm:pt-48 relative bg-gradient-to-tr from-[#EB3678] via-[#FB773C] to-[#180161] flex justify-center"
       id="education"
     >
       <div className="container mx-auto flex flex-col gap-10 pb-40 sm:pb-80">
@@ -79,7 +79,7 @@ function Education() {
       </div>
 
       {/* Bottom SVG */}
-      <div className="absolute bottom-0 left-0 w-full overflow-hidden">
+      {/* <div className="absolute bottom-0 left-0 w-full overflow-hidden">
         <svg
           viewBox="0 0 1440 120"
           fill="none"
@@ -93,7 +93,7 @@ function Education() {
             fill="black"
           />
         </svg>
-      </div>
+      </div> */}
     </div>
   );
 }

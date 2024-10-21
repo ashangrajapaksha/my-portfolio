@@ -4,7 +4,7 @@ function Project() {
   return (
     <div
       id="project"
-      className="h-screen relative overflow-hidden bg-gradient-to-br from-purple-900 via-pink-600 to-orange-400"
+      className="h-screen relative overflow-hidden bg-gradient-to-tl from-[#FB773C] via-[#4F1787] to-[#EB3678]"
     >
       <div className="relative z-10 flex flex-col items-start justify-start h-full p-8 pb-32">
         <h2
@@ -14,6 +14,7 @@ function Project() {
         >
           Services
         </h2>
+
         <div
           className="bg-purple-900 bg-opacity-50 rounded-xl p-6 w-full max-w-2xl"
           data-aos="fade-right"

@@ -4,7 +4,7 @@ import backgroundImage from "../../assets/background.jpg";
 function Introduction() {
   console.log("Dibuger");
   return (
-    <div className="bg-black min-h-screen flex flex-col items-center justify-center text-white p-4">
+    <div className="bg-black min-h-screen flex flex-col items-center justify-center text-white p-4 bg-gradient-to-br from-[#180161] via-[#4F1787] to-[#EB3678]">
       <div
         className="w-56 h-56 rounded-full overflow-hidden mb-8 bg-gradient-to-r from-purple-400 via-blue-400 to-pink-400 p-1"
         data-aos="fade-up"
