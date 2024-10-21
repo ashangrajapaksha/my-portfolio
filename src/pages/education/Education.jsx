@@ -27,54 +27,58 @@ function Education() {
 
   return (
     <div
-      className="h-auto pt-48 relative bg-gradient-to-br from-pink-600 via-orange-400 to-red-500 flex justify-center"
+      className="h-auto pt-24 sm:pt-48 relative bg-gradient-to-br from-pink-600 via-orange-400 to-red-500 flex justify-center"
       id="education"
     >
-      <div className="container mx-auto flex flex-col gap-10 pb-80">
+      <div className="container mx-auto flex flex-col gap-10 pb-40 sm:pb-80">
+        {/* Heading with responsive font size */}
         <h2
-          className="text-6xl font-bold text-white text-center uppercase text-white z-10"
+          className="text-3xl sm:text-6xl font-bold text-white text-center uppercase z-10"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
           Education History
         </h2>
+
         <div
           className="flex items-center justify-center"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <div className="flex gap-10 flex-wrap">
+          <div className="flex flex-col sm:flex-row gap-10 flex-wrap justify-center">
             {educationData.map((education, index) => (
               <div
                 key={index}
-                className="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-xl bg-white w-96"
+                className="max-w-xs sm:max-w-md mx-auto rounded-xl shadow-md overflow-hidden bg-white w-full sm:w-96"
               >
-                <div className="">
-                  <div className="p-8">
-                    {education.collage && (
-                      <div className="uppercase tracking-wide text-center text-lg text-gray-500 font-semibold">
-                        {education.collage}
-                      </div>
-                    )}
+                <div className="p-6 sm:p-8">
+                  {/* College or Institution */}
+                  {education.collage && (
                     <div className="uppercase tracking-wide text-center text-lg text-gray-500 font-semibold">
-                      {education.institution}
+                      {education.collage}
                     </div>
-                    <div className="uppercase tracking-wide text-sm text-center text-gray-500 font-semibold">
-                      ({education.year})
-                    </div>
-                    <p className="mt-2 text-md text-center text-gray-500">
-                      {education.degree}
-                    </p>
-                    <p className="mt-2 text-md text-center text-gray-500">
-                      {education.result}
-                    </p>
+                  )}
+                  <div className="uppercase tracking-wide text-center text-lg text-gray-500 font-semibold">
+                    {education.institution}
                   </div>
+                  <div className="uppercase tracking-wide text-sm text-center text-gray-500 font-semibold">
+                    ({education.year})
+                  </div>
+                  {/* Degree and Result */}
+                  <p className="mt-2 text-md text-center text-gray-500">
+                    {education.degree}
+                  </p>
+                  <p className="mt-2 text-md text-center text-gray-500">
+                    {education.result}
+                  </p>
                 </div>
               </div>
             ))}
           </div>
         </div>
       </div>
+
+      {/* Bottom SVG */}
       <div className="absolute bottom-0 left-0 w-full overflow-hidden">
         <svg
           viewBox="0 0 1440 120"
