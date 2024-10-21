@@ -5,17 +5,18 @@ function Experience() {
   return (
     <div
       id="experience"
-      className="min-h-screen relative flex flex-col gap-10 bg-gradient-to-b from-black to-purple-900 py-13 overflow-hidden"
+      className="min-h-screen relative flex flex-col gap-8 sm:gap-10 bg-gradient-to-b from-black to-purple-900 py-10 sm:py-13 overflow-hidden"
     >
       <h2
-        className="text-6xl font-bold text-white mb-8 text-center uppercase text-white relative z-10"
+        className="text-3xl sm:text-6xl font-bold text-white mb-6 sm:mb-8 text-center uppercase relative z-10"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
         Work Experience
       </h2>
+
       <div
-        className="flex flex-wrap justify-center gap-6 px-4 relative z-10"
+        className="flex flex-col sm:flex-wrap justify-center gap-6 px-4 sm:flex-row relative z-10"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
@@ -32,6 +33,7 @@ function Experience() {
             "Consulting and Supervising Interns: Provided guidance and oversight to interns, ensuring their development and successful contribution to projects.",
           ]}
         />
+
         <Card
           data-aos="fade-left"
           company="Revox (pvt)Ltd"
@@ -43,27 +45,19 @@ function Experience() {
             "Worked with Agile Methodology: Applied Agile principles and practices to development projects for efficient and effective delivery.",
           ]}
         />
+
         <Card
           company="Info Nexus"
           position="Trainee Software Engineer"
           duration="2020 Oct - 2021 April"
           experience={[
             "Developed proficiency in Angular and Ionic for mobile app and web development during training.",
-            "Applied skills to contribute to dynamic and responsive mobile applications",
+            "Applied skills to contribute to dynamic and responsive mobile applications.",
             "Gained valuable experience in the supply chain management domain.",
             "Worked with Agile Methodology: Applied Agile principles and practices to development projects for efficient and effective delivery.",
           ]}
         />
       </div>
-      {/* <div
-        className="flex flex-wrap justify-center gap-6 px-4 relative z-10"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-      >
-        <h3 className="text-2xl font-bold text-white mb-8 text-center uppercase text-white relative z-10">
-          Technical Exposure
-        </h3>
-      </div> */}
     </div>
   );
 }
