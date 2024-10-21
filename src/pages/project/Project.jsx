@@ -8,7 +8,7 @@ function Project() {
     >
       <div className="relative z-10 flex flex-col items-start justify-start h-full p-8 pb-32">
         <h2
-          className="text-6xl font-bold text-white mb-8"
+          className="text-6xl font-bold text-white mb-8 text-center"
           data-aos="fade-up"
           data-aos-duration="1000"
         >

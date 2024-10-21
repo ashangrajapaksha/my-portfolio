@@ -14,7 +14,14 @@ function Education() {
       institution: "G.C.E Advanced Level",
       degree: "Physical Science Stream (2016)",
       year: "2016",
-      result: "A B B",
+      result: " Results : A B B",
+    },
+    {
+      collage: "Kella Maha Vidyalaya",
+      institution: "G.C.E Ordinary Level",
+      degree: "G.C.E. O/L (2011)",
+      year: "2011",
+      result: " Results : A - 4 , B - 2 , C - 3",
     },
   ];
 
@@ -42,21 +49,25 @@ function Education() {
                 key={index}
                 className="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-xl bg-white w-96"
               >
-                <div className="md:flex">
+                <div className="">
                   <div className="p-8">
                     {education.collage && (
-                      <div className="uppercase tracking-wide text-sm text-gray-500 font-semibold">
+                      <div className="uppercase tracking-wide text-center text-lg text-gray-500 font-semibold">
                         {education.collage}
                       </div>
                     )}
-                    <div className="uppercase tracking-wide text-sm text-gray-500 font-semibold">
+                    <div className="uppercase tracking-wide text-center text-lg text-gray-500 font-semibold">
                       {education.institution}
                     </div>
-                    <div className="uppercase tracking-wide text-sm text-gray-500 font-semibold">
-                      {education.year}
+                    <div className="uppercase tracking-wide text-sm text-center text-gray-500 font-semibold">
+                      ({education.year})
                     </div>
-                    <p className="mt-2 text-gray-500">{education.degree}</p>
-                    <p className="mt-2 text-gray-500">{education.result}</p>
+                    <p className="mt-2 text-md text-center text-gray-500">
+                      {education.degree}
+                    </p>
+                    <p className="mt-2 text-md text-center text-gray-500">
+                      {education.result}
+                    </p>
                   </div>
                 </div>
               </div>

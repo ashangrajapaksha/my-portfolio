@@ -6,7 +6,7 @@ function Nav() {
   const links = [
     { name: "Home", link: "home" },
     { name: "Experience", link: "experience" },
-    // { name: "Project", link: "project" },
+    { name: "Project", link: "project" },
     { name: "Education", link: "education" },
     { name: "Contact Me", link: "contact" },
   ];
